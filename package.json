@@ -13,7 +13,10 @@
     "lint": "tsdx lint",
     "prepare": "tsdx build"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "tsdx lint"
