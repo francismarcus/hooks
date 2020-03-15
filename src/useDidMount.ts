@@ -1,9 +1,8 @@
-import useMount from './useMount';
+import { useMount } from './useMount';
 
-const useDidMount = (fn: () => void) => {
+export const useDidMount = (fn: () => void) => {
   useMount(() => {
     fn();
   });
 };
 
-export default useDidMount;
